@@ -1,0 +1,33 @@
+# Local working notes and helpers, not part of the published project
+CLAUDE.md
+.claude/
+tools/
+
+# Build output
+build/
+wmbus/build/
+*.lap
+*.exe
+*.o
+*.obj
+*.pdb
+test_wmbus
+
+# Data from a board: keys, logs, radio captures
+keys.txt
+*.log
+*.cu8
+*.cs8
+*.iq
+
+# Editors and OS
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# The repository root holds the MIT license; the store copy stays local
+wmbus/LICENSE
